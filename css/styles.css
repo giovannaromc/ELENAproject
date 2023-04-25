@@ -8,6 +8,41 @@ body{
   background-image: url(../img/fondo_body.png);
 }
 
+/*Navbar con flexbox paginas no responsive*/
+
+header{
+  width: 100%;
+  height: 80px;
+}
+
+header nav{
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(90deg, rgba(144,235,232,1) 45%, rgba(199,228,153,1) 100%);
+}
+
+ul li {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 13pt;
+  color: black;
+  }
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  text-anchor: black;
+  color: black;
+}  
+
+a:link {
+  color:black;
+}
+
+a:visited {
+  color: rgb(5, 5, 5);
+}
+
 /* Navbar de las páginas responsive con bootstrap*/
 .navbar {
   margin-bottom: 4%;
