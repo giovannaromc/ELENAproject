@@ -16,6 +16,27 @@ body{
         color: nth($colors,1);
         width: 90%;
     }
+
+    .imgmvleft{
+        &:hover{
+            transform: scale(1.2) translateX(-50px);
+            transition: all 1s;
+        }
+    }
+
+    .imgmvright{
+        &:hover{
+            transform: scale(1.2) translateX(50px);
+            transition: all 1s;
+        }
+    }
+
+    .imgmvcenter{
+        &:hover{
+            transform: scale(1.8);
+            transition: all 1s;
+        }
+    }
 }
 
 

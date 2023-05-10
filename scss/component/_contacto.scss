@@ -41,6 +41,9 @@
                 background-color: nth($colors,2);
                 color: nth($colors,1);
 
+                transform: scale(1.5);
+                transition: all 2s;
+
                 i{
                     color: nth($colors,1);
                 }
