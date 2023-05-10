@@ -26,7 +26,7 @@
 }
 
 .iframe-map{
-    @include spacing(nth($margins,2),5px);
+    @include spacing(0px,5px);
 }
 
 /*Mixins format sections*/

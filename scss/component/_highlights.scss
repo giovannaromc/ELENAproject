@@ -1,5 +1,6 @@
 @import "../base/listas";
 
+/* Highlights*/
 .initialcontent {
     background-color: transparent;
     text-align: center;
@@ -10,7 +11,7 @@
 
     .initialcontent-principal {
         h2 {
-            font-size: 1.5rem;
+            font-size: 25pt;
             color: nth($colors,1);
             margin-bottom: nth($margins, 2);
             width: 80%;

@@ -17,6 +17,13 @@ body{
         width: 90%;
     }
 
+    h2 {
+        font-size: 25pt;
+        font-family: 'Rubik Dirt', cursive;
+        color: nth($colors,1);
+        width: 90%;
+    }
+
     .imgmvleft{
         &:hover{
             transform: scale(1.2) translateX(-50px);
