@@ -1,0 +1,39 @@
+@import "../base/listas";
+
+/* Valores mision responsive*/
+.valores {
+    padding: 40px 40px 60px 40px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(imagenes/background.png);
+
+    .columna{
+        padding: 20px;
+        border: 2px solid nth($colors,3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all 0.2s ease-in;
+        background-color: transparent;
+
+        &:hover{
+         background-color: #84cedbab;
+        }
+    }
+
+    i {
+        font-size: 2.5rem;
+        color: nth($colors,2);
+        background-color: nth($colors,1);
+        padding: 8px 19px;
+        border-radius: 50%;
+    }
+    
+}
+  
+.valores-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }

@@ -1,0 +1,23 @@
+@import "../base/listas";
+
+/* Footer responsive*/
+.footer {
+    background-color:nth($colors,3);
+
+    .logofooterresponsive{
+        zoom: 15%;
+        justify-content: center;
+    }
+
+    .instagramlink{
+        text-decoration: none;
+        text-align: center; 
+        font-size: 7pt; 
+        color: black;
+        display: block;
+
+        &:visited{
+            color: black;
+        }
+    }
+}

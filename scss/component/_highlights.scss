@@ -1,0 +1,32 @@
+@import "../base/listas";
+
+.initialcontent {
+    background-color: transparent;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(imagenes/background.png);
+    justify-content: center;
+
+    .initialcontent-principal {
+        h2 {
+            font-size: 1.5rem;
+            color: nth($colors,1);
+            margin-bottom: nth($margins, 2);
+            width: 80%;
+        }
+
+        .initialcontent-imagen-empresa {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+          
+    }
+}
+  
+
+  
+
+
+  

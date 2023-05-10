@@ -1,0 +1,44 @@
+/*Mixins*/
+@import "../base/listas";
+@import "../base/variables";
+
+
+/*Mixins espaciado*/
+@mixin spacing($margintop, $padding){
+    margin-top: $margintop;  
+    padding: $padding;
+}
+
+.footer{
+    @include spacing(nth($margins,2),10px);
+}
+
+.footertext{
+    @include spacing(nth($margins,1),0px);
+}
+
+.businesspresentation{
+    @include spacing(nth($margins,2),0px);
+}
+
+.sectiontitles{
+    @include spacing(0.5%,0px);
+}
+
+.iframe-map{
+    @include spacing(nth($margins,2),5px);
+}
+
+/*Mixins format sections*/
+@mixin sectionformat($colorprop, $backcolor){
+    color: $colorprop;  
+    background-color: $backcolor;
+}
+
+.seccion-oscura {
+    @include sectionformat(nth($colors,2), $gradient-background)
+}
+  
+.seccion-clara {
+    @include sectionformat(nth($colors,1), transparent)
+}

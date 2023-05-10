@@ -1,0 +1,22 @@
+@import "../base/listas";
+
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/fondo_body.png);
+
+    h1 {
+        font-size: 25pt;
+        font-family: 'Rubik Dirt', cursive;
+        color: nth($colors,1);
+        width: 90%;
+    }
+}
+
+
+  

@@ -1,0 +1,15 @@
+@import "../base/variables";
+@import "../base/listas";
+
+
+/* Navbar responsive*/
+.navbar {
+    margin-bottom: 4%;
+    background: $gradient-background;
+    font-size: nth($text-size,1);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+}

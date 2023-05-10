@@ -1,0 +1,57 @@
+@import "../base/listas";
+@import "../base/variables";
+
+.contacto {
+
+
+    .container {
+        max-width: 1100px;
+        min-height: 200px;
+        padding: 20px;
+    }
+  
+    .rectangulo {
+        margin-top: -5rem;
+        background-color: nth($colors,1);
+        border-radius: 10px;
+        box-shadow: 0px 1px 4px 1px nth($colors,2);
+
+        .row {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .descripcion {
+            color: nth($colors,2);
+            font-size: 1.2rem;
+        }
+
+        button {
+            color: nth($colors,2);
+            font-weight: bold;
+            background-color:  nth($colors,4);
+            border: 2px solid nth($colors,2);
+            padding: 1.25em 2em;
+            margin: 10px;
+            border-radius: 100px;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                background-color: nth($colors,2);
+                color: nth($colors,1);
+
+                i{
+                    color: nth($colors,1);
+                }
+            }
+
+            i {
+                color: nth($colors,2);
+                font-size: 1.3rem;
+                transition: all 0.2s ease-in-out;
+            }
+
+        }
+    }
+}

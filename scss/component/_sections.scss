@@ -1,0 +1,33 @@
+/* Estilos generales de secciones */
+@import "../base/listas";
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  .seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+  }
+  
+  .seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+  }
+  
+  .seccion-texto {
+    font-size: 1.2rem;
+  }
+  
+  .texto-negro {
+    color: nth($colors,1);
+  }
+  
+  .texto-blanco {
+    color: white;
+  }
+} 
+  

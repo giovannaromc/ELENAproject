@@ -7,7 +7,7 @@ let typewriter = new Typewriter(app, {
  
 typewriter
   .pauseFor(2500)
-  .typeString('Unión entre el ecofemisnismo, ciencia y tecnología')
+  .typeString('Unión entre el ecofeminismo, ciencia y tecnología')
   .pauseFor(200)
   .deleteChars(10)
   .start();

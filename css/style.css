@@ -1,0 +1,272 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../img/fondo_body.png);
+}
+body h1 {
+  font-size: 25pt;
+  font-family: "Rubik Dirt", cursive;
+  color: black;
+  width: 90%;
+}
+
+/* Navbar responsive*/
+.navbar {
+  margin-bottom: 4%;
+  background: linear-gradient(90deg, rgb(144, 235, 232) 45%, rgb(199, 228, 153) 100%);
+  font-size: 13pt;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Footer responsive*/
+.footer {
+  background-color: #F0F0F0;
+}
+.footer .logofooterresponsive {
+  zoom: 15%;
+  justify-content: center;
+}
+.footer .instagramlink {
+  text-decoration: none;
+  text-align: center;
+  font-size: 7pt;
+  color: black;
+  display: block;
+}
+.footer .instagramlink:visited {
+  color: black;
+}
+
+.initialcontent {
+  background-color: transparent;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(imagenes/background.png);
+  justify-content: center;
+}
+.initialcontent .initialcontent-principal h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 5%;
+  width: 80%;
+}
+.initialcontent .initialcontent-principal .initialcontent-imagen-empresa {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+/* Valores mision responsive*/
+.valores {
+  padding: 40px 40px 60px 40px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(imagenes/background.png);
+}
+.valores .columna {
+  padding: 20px;
+  border: 2px solid #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+  background-color: transparent;
+}
+.valores .columna:hover {
+  background-color: rgba(132, 206, 219, 0.6705882353);
+}
+.valores i {
+  font-size: 2.5rem;
+  color: white;
+  background-color: black;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.valores-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Testimonios mision responsive*/
+.testimonios {
+  padding: 40px 40px 80px 40px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(imagenes/background.png);
+}
+
+.carousel {
+  max-width: 800px;
+}
+.carousel .carousel-item {
+  height: 500px;
+}
+.carousel .carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel .carousel-item .container .testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+}
+.carousel .carousel-item .container .testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+.carousel .carousel-item .container .testimonio-info p {
+  margin-bottom: 0;
+  margin-top: 4%;
+}
+.carousel .carousel-item .container .testimonio-footer .cliente {
+  font-size: 1.2rem;
+}
+
+/* Estilos generales de secciones */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+section .seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+section .seccion-texto {
+  font-size: 1.2rem;
+}
+section .texto-negro {
+  color: black;
+}
+section .texto-blanco {
+  color: white;
+}
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+.contacto .rectangulo .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.contacto .rectangulo .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+.contacto .rectangulo button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(107, 197, 194);
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.contacto .rectangulo button:hover {
+  background-color: white;
+  color: black;
+}
+.contacto .rectangulo button:hover i {
+  color: black;
+}
+.contacto .rectangulo button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.imgside {
+  margin-top: 5%;
+  zoom: 40%;
+  justify-content: center;
+}
+@media (max-width: 440px) {
+  .imgside {
+    zoom: 25%;
+  }
+}
+
+.personalizedtitle {
+  zoom: 50%;
+  margin-bottom: 2%;
+}
+
+.articulos {
+  min-height: 400px;
+  padding: 30px;
+  background-size: cover;
+}
+
+/*Mixins*/
+/*Mixins espaciado*/
+.footer {
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.footertext {
+  margin-top: 2%;
+  padding: 0px;
+}
+
+.businesspresentation {
+  margin-top: 5%;
+  padding: 0px;
+}
+
+.sectiontitles {
+  margin-top: 0.5%;
+  padding: 0px;
+}
+
+.iframe-map {
+  margin-top: 5%;
+  padding: 5px;
+}
+
+/*Mixins format sections*/
+.seccion-oscura {
+  color: white;
+  background-color: linear-gradient(90deg, rgb(144, 235, 232) 45%, rgb(199, 228, 153) 100%);
+}
+
+.seccion-clara {
+  color: black;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
